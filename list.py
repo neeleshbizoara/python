@@ -27,14 +27,14 @@ print("Remove ", x)
 '''
 If value is not in list it will throw ValueError: list.remove(x): x not in list
 So how we can deal with this
-'''
+
 value = input('Find index of entered value from list: ')
 try:
-    indexofValue = x.index(value)
+    indexofValue = x.index(int(value)) or x.index(value)
     print('index of {0} is {1}'.format(value, indexofValue))
 except:
     print(value, 'is not found')
-
+'''
 
 
 print("Now lenght of list is", len(x))
@@ -46,4 +46,4 @@ try:
 except:
     print("Index out of range")
 
-    
+
