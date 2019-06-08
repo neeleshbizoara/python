@@ -46,4 +46,33 @@ try:
 except:
     print("Index out of range")
 
+x.pop()
 
+print('pop method will remove last index : ',x)
+
+x.append('10')
+print('append method will add value at last index : ',x)
+
+x.reverse()
+print('reverse method will reverse the list : ',x)
+
+x.append(1)
+x.append('1')
+x.append(1)
+print(x)
+print(x.count('Neelesh'))
+
+'''
+copy() throws AttributeError: 'list' object has no attribute 'copy'
+c = x.copy()
+print(c)
+'''
+
+'''
+claer() will clear the list
+x.clear()
+print(x)
+'''
+
+del x
+print('del will delete list')
