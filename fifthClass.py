@@ -76,3 +76,26 @@ print(hash(tup1))
 print(hash(tup2))
 
 #test # Throw Error NameErro: name 'test' is not defined
+
+
+'''di = {1: "One", 2:"Two", 3: "three"}
+l = {**di}
+print(l)'''
+
+'''q = lambda x, y: x + y
+print(q(10,20))
+
+def CTOF(x = int(input())):
+    return (x* 9/5)+32
+
+print(CTOF())'''
+
+inp = int(input())
+for x in range(inp):
+    print(x*x)
+
+def fun1():
+    pass
+    print('10')
+
+fun1()
