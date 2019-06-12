@@ -25,7 +25,7 @@ def Company(name, since, *workin):
 Company('Msys', 2015, 'Storage', 'Virtualization', 'Networking', 'Finance', 'Machine Learning', 'Telecom')
 
 print('We can pass key value pair to function')
-'''Here *workin will give dictionary'''
+'''Here **workin will give dictionary'''
 
 def Company(name, since, **workin):
     print('Company Name is', name)
