@@ -1,5 +1,6 @@
 '''Sets'''
-''' In sets no duplacates value in below example 
+''' A set is an unordered collection with no duplicate elements.
+In sets no duplacates value in below example 
 a = {1, 2, 3, 1}
 the outout will be 
 ([1, 2, 3])
@@ -9,6 +10,8 @@ It will throw TypeError: 'set' object does not support indexing
 '''
 a = {1, 2, 3, 1}
 print(a)
+
+# a[0] it will throw Error because 'unordered collection '
 
 print('Length of A', len(a))
 
@@ -72,3 +75,6 @@ print('symmetric difference of 2 sets using symmetric_difference()', y.symmetric
 
 
 print(dir(z))
+
+
+
