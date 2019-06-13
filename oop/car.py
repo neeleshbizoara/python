@@ -33,3 +33,5 @@ print(ford.speed , ford.color)
 
 # We can change value of instance attribute
 ford.speed = 300
+
+print(ford.speed)
