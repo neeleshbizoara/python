@@ -35,3 +35,9 @@ print(obj1)
 print(listClass.__mro__)
 
 '''finally'''
+
+
+'''Throw away variable  is _'''
+
+x = [int(input())*2 for _ in range(4)]
+print(x)
