@@ -7,11 +7,15 @@ class abc():
     def append(self):
         pass
 
-obj = abc()
+print(type(abc))
+print(id(abc))
+obj = abc() # instantiation
+dir(abc)
 type(obj) # "__main__" ?
 print(obj.order)
 obj.changeState() # here chageState is attribute of instance
-print(obj.order)
+print(obj.order) #attribute references
+dir(obj)
 a = list()
 
 obj.append()
@@ -43,4 +47,20 @@ def parentFun():
         var1 = 12
     def fun2():
         fun1()
-        print(var1)
+        # print(var1)
+
+
+class MyClass:
+    """A simple example class"""
+    i = 12345
+
+    def __init__(self, p, q):
+        '''Constructor function'''
+        self.var1 = p
+        self.var2 = q
+
+    def f(self):
+        return 'hello world'
+
+    obj1 = MyClass('This is my first string.', 7)
+    obj2 = MyClass('This is my second string.', 7)
